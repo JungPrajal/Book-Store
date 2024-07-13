@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Zone - Blog Page</title>
+    <link rel="shortcut icon" href="images/Favicon.svg">
+    <link rel="stylesheet" href="css/style.css" /> <!--external css-->
+	<!-- font-awesome icon external js-->
+	<script src="https://kit.fontawesome.com/b2333877da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <div style="background-color: #000;">
+            <div class="container">
+                <div class="header-top">
+                    <ul>
+                        <li>
+                            <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-main">
+                <div class="header-logo">
+                    <img src="images/Logo.svg" alt="logo" />
+                </div>
+                <div class="header-search">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search by title, author or ISBN" />
+                        <button class="search-btn">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-menubox">
+            <div class="container">
+                <div class="header-menu">
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="product.html">Product</a>
+                            </li>
+                            <li>
+                                <a class="active" href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="research.html">Research</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="blog">
+            <div class="cover-photo">
+                <div class="container">
+                    <h1 class="heading">Blog Page</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="blog-content">
+                    <div class="blog-paragraph">
+                        <h1 style="font-weight: 600; font-size: 35px;">How technology afftected in their daily life?</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dicta, fugit voluptatem nemo incidunt delectus eos quidem maxime architecto. Deserunt provident soluta ratione reprehenderit voluptas saepe sint asperiores laborum molestias.
+                        </p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil hic quis delectus! Molestiae modi illo sapiente laborum iure dicta explicabo, minima error voluptate exercitationem blanditiis odit! Eligendi beatae in fuga?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aliquam quasi, molestias earum eveniet, perspiciatis sint veritatis eligendi, illum explicabo consequatur tenetur numquam praesentium sequi dignissimos. Enim odit omnis pariatur. <span id="moreDots">...</span>
+                        </p>
+                        <p id="moreText" style="display: none;">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde nobis voluptatibus optio, asperiores qui harum eaque autem commodi accusamus, nostrum consequuntur veritatis porro corrupti perferendis cum dolore accusantium quo beatae.
+                        </p>
+                        <button id="readMore" class="readBtn" onclick="readMore();">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h2 class="heading">About Books Zone</h2>
+                    <p style="line-height: 1.5;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ex eius reiciendis rem possimus facilis iure quibusdam dolorum
+                        tempore tempora laborum nam asperiores ipsa vel error qui, nemo
+                        inventore ratione veniam?
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h2 class="heading">Quick Links</h2>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="product.html">Product</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2 class="heading">Extra Links</h2>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="research.html">Research</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2 class="heading">
+                        Subscribe to our newsletter
+                    </h2>
+                    <form action="index.html">
+                        <input class="subscribe-input" placeholder="info@domain.com" type="text">
+                        <button class="subscribe-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-social">
+            <div class="container">
+                <div style="display: flex; justify-content: center;">
+                    <div style="display: flex; align-items: center;">
+                        <h2 class="heading" style="margin-right: 30px;">Connect With Us:</h2>
+                        <div class="social-icons">
+                            <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p style="text-align: center;">
+                    © Copyright 2022 @ all right research
+                </p>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollBtn" onClick="scroll2Top()"><i class="fas fa-arrow-up"></i></button>
+    <script src="js/index.js"></script>
+    <script>
+        // Read More
+        function readMore() {
+            var readBtn = document.getElementById("readMore");
+            var moreDots = document.getElementById("moreDots");
+            var moreText = document.getElementById("moreText");
+            if(moreText.style.display == "block") {
+                moreDots.style.display = "inline";
+                moreText.style.display = "none";
+                readBtn.innerHTML = "Read More";
+            } else {
+                moreDots.style.display = "none";
+                moreText.style.display = "block";
+                readBtn.innerHTML = "Read Less";
+            }
+        }
+
+    </script>
+</body>
+</html>

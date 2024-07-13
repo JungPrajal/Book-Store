@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Zone - Contact Page</title>
+    <link rel="shortcut icon" href="images/Favicon.svg">
+    <link rel="stylesheet" href="css/style.css" /> <!--external css-->
+	<!-- font-awesome icon external js-->
+	<script src="https://kit.fontawesome.com/b2333877da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div style="background-color: #000;">
+            <div class="container">
+                <div class="header-top">
+                    <ul>
+                        <li>
+                            <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-main">
+                <div class="header-logo">
+                    <img src="images/Logo.svg" alt="logo" />
+                </div>
+                <div class="header-search">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search by title, author or ISBN" />
+                        <button class="search-btn">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-menubox">
+            <div class="container">
+                <div class="header-menu">
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="product.html">Product</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="research.html">Research</a>
+                            </li>
+                            <li>
+                                <a class="active" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+
+        <div class="contact">
+            <div class="container">
+                <h1 style="text-align: center; margin-bottom: 30px;">LET'S GET IN TOUCH</h1>
+                <div class="contact-box">
+                    <div class="contact-item box-form">
+                        <h3 style="border-left: 5px solid #f00;padding-left: 12px;">MESSAGE</h3>
+                        <br/>
+                        <form action="index.html" onsubmit="return formValidation();">
+                            <table style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input id="name" placeholder="Full Name" type="text" class="input-box" />
+                                        </td>
+                                        <td>
+                                            <input id="email" placeholder="Email Address" type="email" class="input-box" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <input id="phone" placeholder="Phone" type="text" class="input-box" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <textarea id="message" rows="10" placeholder="Message" type="text" class="input-box"></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <button type="submit" class="submit-btn">Submit</button>
+                                        </td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="contact-item box-detail">
+                        <div class="customer-box">
+                            <h3 class="heading" style="border-left: 5px solid #f00;padding-left: 12px;">OUR CONTACT</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-phone"></i> 061-23405
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i> info@bookszone.com
+                                </li>
+                                <li>
+                                    <i class="fa fa-map"></i> Pokhara-5, New Road
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h2 class="heading">About Books Zone</h2>
+                    <p style="line-height: 1.5;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ex eius reiciendis rem possimus facilis iure quibusdam dolorum
+                        tempore tempora laborum nam asperiores ipsa vel error qui, nemo
+                        inventore ratione veniam?
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h2 class="heading">Quick Links</h2>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="product.html">Product</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2 class="heading">Extra Links</h2>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="research.html">Research</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h2 class="heading">
+                        Subscribe to our newsletter
+                    </h2>
+                    <form action="index.html">
+                        <input class="subscribe-input" placeholder="info@domain.com" type="text">
+                        <button class="subscribe-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-social">
+            <div class="container">
+                <div style="display: flex; justify-content: center;">
+                    <div style="display: flex; align-items: center;">
+                        <h2 class="heading" style="margin-right: 30px;">Connect With Us:</h2>
+                        <div class="social-icons">
+                            <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p style="text-align: center;">
+                    © Copyright 2022 @ all right research
+                </p>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollBtn" onClick="scroll2Top()"><i class="fas fa-arrow-up"></i></button>
+    <script src="js/index.js"></script>
+    <script>
+        // Form Validation
+        function formValidation() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var message = document.getElementById('message').value;
+            if(name == "" || email == "" || phone == "" || comment == "") {
+                alert("Books Zone : Please fill all the details in the form");
+                return false;
+            } 
+            else{
+                alert('Books Zone : You have submitted the form successfully');
+                return true;	
+            }
+        }
+    </script>
+</body>
+</html>

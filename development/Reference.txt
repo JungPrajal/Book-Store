@@ -1,0 +1,7 @@
+Referennce
+
+https://www.buybooksindia.com/order.php : Header Component
+https://www.booktopia.com.au/ : Slider Component
+https://sastobooks.com/ : Products Component
+https://www.booksmandala.com/ : Footer Component
+https://lacosmeticsnepal.com/contact-la-cosmetics-nepal/ : Contact Us
